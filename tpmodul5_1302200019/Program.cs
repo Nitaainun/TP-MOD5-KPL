@@ -25,6 +25,7 @@ namespace tpmodul5_1302200019
             public string title;
             public int playAcount = 0;
             private static int count;
+            private string v;
 
             static SayaTubeVideo(string title)
             {
@@ -38,12 +39,30 @@ namespace tpmodul5_1302200019
                 playCount = 0;
             }
 
+            public SayaTubeVideo(string v)
+            {
+                this.v = v;
+            }
+
             public static void IncreasePlayCount(int playCount)
             {
-               
+                try
+                {
+                    if (count >= 10000000) throw new Exception("Input Melebihi Batas Maksimal");
+                    playCount = playCount + count;
+                }
+                catch (Exception jml)
+                {
+                    Console.WriteLine(jml.Message);
+                }
             }
 
             public static string GetTitle()
+            {
+                return title;
+            }
+
+            public static string GetTitle(string title)
             {
                 return title;
             }
@@ -53,6 +72,11 @@ namespace tpmodul5_1302200019
                 Console.WriteLine(id);
                 Console.WriteLine(title);
                 Console.WriteLine(playCount);
+            }
+
+            internal void PrintVideoDetails()
+            {
+                throw new NotImplementedException();
             }
         }
     }
