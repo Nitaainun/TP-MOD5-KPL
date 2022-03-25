@@ -1,0 +1,3 @@
+C:\Users\user\source\repos\tpmodul5_1302200019\tpmodul5_1302200019\obj\Debug\tpmodul5_1302200019.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\tpmodul5_1302200019\tpmodul5_1302200019\obj\Debug\tpmodul5_1302200019.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\tpmodul5_1302200019\tpmodul5_1302200019\obj\Debug\tpmodul5_1302200019.csproj.CoreCompileInputs.cache
